@@ -3,7 +3,7 @@
  * It is based on the concept of "Divide and Conquer": split a problem into n elementary problems.
  * 
  * Merge sort logic:
- * Split array given in input into two parts, then split each part into two sub parts
+ * Split the array given in input into two parts, then split each part into two sub parts
  * and go on until we reach elementary cases (single ordered elements).
  * Starting from these elementary cases to the first two parts, the two sub parts are merged and returned.
  * @param {*} A array
